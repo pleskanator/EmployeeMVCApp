@@ -1,0 +1,26 @@
+﻿@model  MikesApp.SVC.User.Employee[]
+@{
+    ViewBag.Title = "UserInfo";
+    Layout = "~/Views/Shared/_layout.cshtml";
+}
+<div id="dialog-form" class="employee-info grid-3-12">
+    <form>
+        <fieldset>
+            <label for="txtFirstName">First Name:</label>
+            <input type="text" id="txtFirstName" />
+            <label for="txtLastName">Last Name:</label>
+            <input type="text" id="txtLastName" />
+            <label for="txtEmail">Email:</label>
+            <input type="text" id="txtEmail" />
+            <label for="txtPhone">Phone Number:</label>
+            <input type="text" id="txtPhone" />
+            <label for="txtAddress">Address:</label>
+            <input type="text" id="txtAddress" />
+         </fieldset>
+    </form>
+</div>
+
+<div class="results" id="employee-results">
+@Html.Partial("EmployeeInformation")    
+</div>
+<button id="btn-addusr">Add User</button>

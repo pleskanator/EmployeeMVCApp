@@ -1,0 +1,24 @@
+﻿@model MikesApp.SVC.User.Employee[]  
+<h2>Results</h2>
+  <table>
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email</th>
+        <th>Phone Number</th>
+        <th>Address</th>
+    </tr> 
+@if(Model != null)
+{
+foreach (var i in Model)
+{
+    <tr class="employee-record" data-ID="@i.ID">
+        <td>@i.FirstName</td>
+        <td>@i.LastName</td>
+        <td>@i.Email</td>
+        <td>@i.Phone</td>
+        <td>@i.Address</td>
+    </tr>
+}
+}
+</table>

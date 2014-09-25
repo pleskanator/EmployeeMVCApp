@@ -1,0 +1,47 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Mike's App | @ViewBag.Title</title>
+    <link href="@Url.Content("~/css/framework.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/css/jquery-ui-style.css")" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="@Url.Content("~/js/jquery-1.7.1.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/js/jquery-ui-1.8.20.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/js/Mikes.js")"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="wrapper">
+            <div style="display:inline-block; width:100%;">
+                <h2 style="float:left; padding:10px;">@ViewBag.Title</h2>
+                <ul class="nav">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Vacation</a></li>
+                    <li><a href="">Users</a></li>
+                </ul>
+            </div>
+            @if (ViewBag.Title == "UserInfo")
+            {
+                <div style="display:inline-block; float: right;">
+                <div>
+                    <button id="btnSearch" style="float:right">Search</button>
+                </div>
+                <div class="grid-3-12" style="float:right;">
+                    <label for="txtLastNameSearch">Last Name:</label>
+                    <input type="text" id="txtLastNameSearch" />
+                </div>
+                <div class="grid-3-12" style="float:right;">
+                    <label for="txtFirstNameSearch">First Name:</label>
+                    <input type="text" id="txtFirstNameSearch" />
+                </div>
+                    </div>
+            }
+        </div>
+    </div>
+    <div class="wrapper">
+        @RenderBody()
+    </div>
+</body>
+</html>

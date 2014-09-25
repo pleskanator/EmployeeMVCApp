@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MikesService.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="GetEmployeeInfo" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">usp_GetEmployeeInfo</Value>
+    </Setting>
+    <Setting Name="MikesAppDB" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Data Source=itlaptop217; Initial Catalog=MikesApp;User ID=MikesAppUsr;Password=0r@ng3S0d@</Value>
+    </Setting>
+    <Setting Name="SaveEmployeeInfo" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">usp_SaveEmployeeData</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

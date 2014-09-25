@@ -1,0 +1,5 @@
+E:\TFS\RL University\DOTNET\RLUniversityTempLogin\Trunk\MikesApp\MikesService\obj\Debug\MikesService.csprojResolveAssemblyReference.cache
+E:\TFS\RL University\DOTNET\RLUniversityTempLogin\Trunk\MikesApp\MikesService\bin\MikesService.dll
+E:\TFS\RL University\DOTNET\RLUniversityTempLogin\Trunk\MikesApp\MikesService\bin\MikesService.pdb
+E:\TFS\RL University\DOTNET\RLUniversityTempLogin\Trunk\MikesApp\MikesService\obj\Debug\MikesService.dll
+E:\TFS\RL University\DOTNET\RLUniversityTempLogin\Trunk\MikesApp\MikesService\obj\Debug\MikesService.pdb
